@@ -5,9 +5,42 @@
     margin: 0;
     padding: 0;
 }
+h3{
+    text-align: center;
+}
+body{
+    padding-bottom: 65px;
+    display:grid;
+    grid-template-columns: auto; 
+    align-items: center; 
+}
 main{
     width: 100%;
     height: 100vh;
+}
+.actionShots{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items: center;
+}
+.actionPics{
+    width: 438px;
+    height: 641px;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    background-color:rgb(136, 9, 9);
+    color: white;
+    padding: 5px;
+}
+.footerHead{
+    text-align: left;
+    padding-bottom: 3px;
+    font-size: 130%;
+}
+.footerParagraph{
+    font-size: 90%;
 }
 .type{
     background-color: rgb(136, 9, 9);
@@ -103,6 +136,16 @@ nav a:link{
     grid-template-columns: auto auto auto;
     column-gap: auto;
     justify-items:center;
+    row-gap: auto;
+}
+.gallaryImage{
+    width: 410px;
+    height: 410px;
+}
+.footer{
+    display:grid;
+    grid-template-columns: auto;
+    justify-items: center;
 }
 .Images{
     width: 90%;
@@ -170,21 +213,24 @@ button{
 .package{
     padding-bottom: 11px;
 }
+.packageName{
+    text-align: left;
+}
 .Bios{
     display:grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     justify-items: center;
     padding-bottom: 30px;
     Row-gap: 20px;
-    column-gap: 30px;
+    column-gap: 15px;
 }
 .bio{
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
 }
 .words{
     font-size: 80%;
-    width: 500px;
+    width: 350px;
 }
 .fullBio{
     margin-left: auto;
